@@ -1,0 +1,108 @@
+html, body{
+    background-color: gray;
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#mainTitle{
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: 600;
+    color: white;
+}
+
+#formMain{
+    display: grid;
+
+    border: 1px solid white;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+
+
+    grid-template-columns: 2(1fr);
+
+    padding: 10px;
+    border-radius: 7%;
+}
+
+#formTemplate{
+    margin: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20px 20px 20px 20px 40px;
+    grid-gap: 10px;
+}
+
+#formButton{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    cursor: pointer;
+    
+}
+
+.parent{
+    display: grid;
+    width: 100%;
+}
+
+#templateForm{
+    margin:5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px;
+    grid-gap: 5px;
+
+    
+}
+
+#textArea{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.templateMain{
+    display: grid;
+
+    border: 8px solid black;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+
+    grid-template-columns: 2(1fr);
+
+    padding: 10px;
+    border-radius: 7%;
+}
+
+#badgeTitle{
+    margin: 0px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+.templateParent{
+    margin: 50px auto;
+    width: 100%;
+    height: 90%;
+
+    display: grid;
+    grid-template-rows: 6(1fr);
+    grid-template-columns: 1;
+
+    grid-row-gap: 10px;
+    
+}
